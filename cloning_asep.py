@@ -15,8 +15,8 @@ s_array=  np.arange(-3,3.5,0.5)
 #model params
 alpha_R=1 #site empty: right boundary
 alpha_L=2#site empty: left boundary
-beta_L=1 #site occupied: right boundary
-beta_R=0.6 #site occupied: left boundary
+beta_L=1 #site occupied: left boundary
+beta_R=0.6 #site occupied: right boundary
 
 
 
