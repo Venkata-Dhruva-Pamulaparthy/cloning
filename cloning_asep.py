@@ -170,7 +170,7 @@ def main():
                    # clones[:,2] += new_tau
                     
                 clone_state = np.append(clone_state,clones,axis=0) #add copies to ensemble
-                c = np.random.choice(N+int(y),size=int(y),replace=False)
+                c = np.random.choice(N+int(y),size=int(y)-1,replace=False)
                 clone_state=  np.delete(clone_state,c,axis=0) # delete to maintain N clones
                 
 
